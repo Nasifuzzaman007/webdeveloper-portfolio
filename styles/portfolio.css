@@ -59,10 +59,10 @@ nav a {
 /* header related styles */
 .header {
     background: #FFF8F3;
-    background-image: url(../images/header_bg.png);
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: 30%;
+    background-position: bottom right, top left;
+    background-size: 30%, 5%;
 }
 
 .banner {
@@ -206,57 +206,59 @@ main section {
     color: #757575;
     margin-bottom: 20px;
     margin-top: 0;
+}
 
-    .resume-item-title {
-        color: #474747;
-        font-size: 25px;
-        font-weight: 700;
-    }
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
 
-    .resume-column-title {
-        color: #474747;
-        font-size: 30px;
-        font-weight: 700;
-        margin-bottom: 10px;
-    }
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
 
-    .resume-container hr {
-        margin: 30px;
-    }
+.resume-container hr {
+    margin: 30px;
+}
 
-    .download-cv {
-        text-align: center;
-        margin-top: 50px;
-    }
+.download-cv {
+    text-align: center;
+    margin-top: 50px;
+}
 
 
-    /* footer styles */
+/* footer styles */
 
-    footer {
-        display: flex;
-        gap: 100px;
-        background: #FFF8F3;
-        padding: 130px 200px;
-        margin-top: 100px;
-    }
+footer {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 100px;
+}
 
-    .footer-column {
-        width: 50%;
-    }
+.footer-column {
+    width: 50%;
+}
 
-    .social-links a{
-        margin-right: 25px;
-    }
+.social-links a {
+    margin-right: 25px;
+}
 
-    .contact input[type="text"], .contact input[type="email"],
-    textarea {
-        display: block;
-        margin-bottom: 25px;
-        padding: 18px 35px;
-        color: #757575;
-        border-radius: 5px;
-        background: #FFF;
-        border: 0;
-        width: 100%;
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
 
-    }
+}
